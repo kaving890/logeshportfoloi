@@ -1,0 +1,1078 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Logeshwaran R S - M.Sc. Computer Science Student specializing in IoT & Cloud Computing"
+    />
+    <meta
+      name="keywords"
+      content="IoT, AWS, Cloud Computing, Python, Portfolio"
+    />
+    <meta name="author" content="Logeshwaran R S" />
+    <title>Logeshwaran R S - Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/image.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-background">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+      <div class="grid-pattern"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+      <!-- Desktop Navigation -->
+      <div class="nav-desktop">
+        <button class="nav-item" data-section="hero">Home</button>
+        <button class="nav-item" data-section="skills">Skills</button>
+        <button class="nav-item" data-section="education">Education</button>
+        <button class="nav-item" data-section="certifications">
+          Certifications
+        </button>
+        <button class="nav-item" data-section="resume">Resume</button>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="nav-mobile">
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            class="menu-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg
+            class="close-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="nav-dropdown" id="navDropdown">
+          <button class="nav-item-mobile" data-section="hero">Home</button>
+          <button class="nav-item-mobile" data-section="skills">Skills</button>
+          <button class="nav-item-mobile" data-section="education">
+            Education
+          </button>
+          <button class="nav-item-mobile" data-section="certifications">
+            Certifications
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-container">
+        <div class="profile-image animate-on-load">
+          <img
+            src="./assets/logesh.png"
+            alt="Logeshwaran R S"
+            class="profile-img"
+          />
+        </div>
+        <h1 class="hero-name animate-on-load delay-1">Logeshwaran R S</h1>
+        <div class="hero-title-wrapper animate-on-load delay-2">
+          <h2 class="hero-title">
+            M.Sc. Computer Science Student | IoT & Cloud Enthusiast
+          </h2>
+        </div>
+        <p class="hero-description animate-on-load delay-3">
+          Passionate about building innovative IoT systems and leveraging AWS
+          cloud technologies to create scalable solutions. Currently pursuing
+          M.Sc. in Computer Science with specialization in AWS Cloud Computing,
+          bringing hands-on experience in embedded systems, Python development,
+          and cloud infrastructure management.
+        </p>
+        <div class="hero-buttons animate-on-load delay-4">
+          <button class="btn btn-primary" data-section="projects">
+            View Projects
+          </button>
+          <button class="btn btn-secondary" data-section="contact">
+            Contact Me
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Proficient in modern technologies and frameworks for full-stack
+            development
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card animate-on-scroll delay-1">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-category">Programming</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">C</span>
+              <span class="skill-tag">C++</span>
+              <span class="skill-tag">Java</span>
+            </div>
+          </article>
+
+          <article class="skill-card animate-on-scroll delay-2">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="skill-category">Web Technologies</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card animate-on-scroll delay-3">
+            <div class="skill-header">
+              <div class="skill-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                  <line x1="9" y1="20" x2="9" y2="23"></line>
+                  <line x1="15" y1="20" x2="15" y2="23"></line>
+                  <line x1="20" y1="9" x2="23" y2="9"></line>
+                  <line x1="20" y1="14" x2="23" y2="14"></line>
+                  <line x1="1" y1="9" x2="4" y2="9"></line>
+                  <line x1="1" y1="14" x2="4" y2="14"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category">Technologies</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">AWS</span>
+              <span class="skill-tag">Arduino</span>
+              <span class="skill-tag">IoT</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Real-world implementations showcasing IoT systems and cloud
+            infrastructure expertise
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card animate-on-scroll delay-1">
+            <div class="project-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                alt="Wireless Notice Board"
+                class="project-image"
+              />
+              <div class="project-icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                  <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                  <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                  <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                </svg>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Wireless Notice Board Using IoT</h3>
+              <div class="project-section">
+                <h4 class="project-subtitle">Overview:</h4>
+                <p class="project-text">
+                  Developed an IoT-based wireless notice board system using
+                  Arduino and ESP8266 WiFi module to display real-time messages
+                  remotely via a web interface.
+                </p>
+              </div>
+              <div class="project-section">
+                <h4 class="project-subtitle">Technologies Used:</h4>
+                <div class="project-tags">
+                  <span class="project-tag">Arduino</span>
+                  <span class="project-tag">ESP8266</span>
+                  <span class="project-tag">WiFi Module</span>
+                  <span class="project-tag">C++</span>
+                  <span class="project-tag">Web Interface</span>
+                </div>
+              </div>
+              <div class="project-section">
+                <h4 class="project-subtitle">Key Features:</h4>
+                <ul class="project-list">
+                  <li>Remote message updates via WiFi</li>
+                  <li>Real-time display synchronization</li>
+                  <li>User-friendly web interface</li>
+                  <li>Cost-effective IoT solution</li>
+                  <li>Scalable for multiple boards</li>
+                </ul>
+              </div>
+              <div class="project-buttons">
+                <button class="btn btn-primary-small">View Details</button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card animate-on-scroll delay-2">
+            <div class="project-image-wrapper">
+              <img
+                src="https://images.unsplash.com/photo-1721444127971-b7d0023bbef2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1080"
+                alt="AWS Windows Server"
+                class="project-image"
+              />
+              <div class="project-icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                Deployment of Windows Server on Amazon EC2
+              </h3>
+              <div class="project-section">
+                <h4 class="project-subtitle">Overview:</h4>
+                <p class="project-text">
+                  Created and configured a Windows EC2 instance for hosting
+                  applications and remote desktop access.
+                </p>
+              </div>
+              <div class="project-section">
+                <h4 class="project-subtitle">AWS Services Used:</h4>
+                <div class="project-tags">
+                  <span class="project-tag">Amazon EC2</span>
+                  <span class="project-tag">IAM</span>
+                  <span class="project-tag">Security Groups</span>
+                  <span class="project-tag">Key Pair Authentication</span>
+                </div>
+              </div>
+              <div class="project-section">
+                <h4 class="project-subtitle">Key Tasks:</h4>
+                <ul class="project-list">
+                  <li>Created EC2 Windows instance</li>
+                  <li>Configured security group rules</li>
+                  <li>Generated key pair</li>
+                  <li>Accessed server via RDP</li>
+                  <li>Tested basic server setup</li>
+                </ul>
+              </div>
+              <div class="project-buttons">
+                <button class="btn btn-primary-small">Project Details</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section education-section">
+      <div class="container education-container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Academic journey and qualifications in computer science
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-line"></div>
+
+          <!-- Education 1 -->
+          <article class="timeline-item animate-on-scroll delay-1">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <div class="education-header">
+                <div class="education-info">
+                  <h3 class="education-degree">
+                    Master of Science in Computer Science
+                  </h3>
+                  <p class="education-specialization">
+                    Specialization: AWS Cloud Computing
+                  </p>
+                </div>
+                <div class="education-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="education-details">
+                <div class="education-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span>VET College of Arts and Science, Thindal, Erode</span>
+                </div>
+                <div class="education-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect
+                      x="3"
+                      y="4"
+                      width="18"
+                      height="18"
+                      rx="2"
+                      ry="2"
+                    ></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>2025 - 2027</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Education 2 -->
+          <article class="timeline-item animate-on-scroll delay-2">
+            <div class="timeline-dot"></div>
+            <div class="education-card">
+              <div class="education-header">
+                <div class="education-info">
+                  <h3 class="education-degree">
+                    Bachelor of Science in Computer Science
+                  </h3>
+                  <p class="education-specialization">
+                    Specialization: Computer Science
+                  </p>
+                </div>
+                <div class="education-icon">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="education-details">
+                <div class="education-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                    ></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                  <span
+                    >Kongu College of Arts and Science, Nanjanapuram,
+                    Erode</span
+                  >
+                </div>
+                <div class="education-detail">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect
+                      x="3"
+                      y="4"
+                      width="18"
+                      height="18"
+                      rx="2"
+                      ry="2"
+                    ></rect>
+                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                  </svg>
+                  <span>2022 - 2025</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section certifications-section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Certifications</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Professional certifications demonstrating expertise and continuous
+            learning
+          </p>
+        </div>
+
+        <div class="certifications-grid">
+          <article class="cert-card animate-on-scroll delay-1" data-cert="aws">
+            <div class="cert-content">
+              <div class="cert-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline
+                    points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
+                  ></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+                <p class="cert-issuer">Amazon Web Services</p>
+                <p class="cert-view">Click to view certificate</p>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="cert-card animate-on-scroll delay-2"
+            data-cert="python"
+          >
+            <div class="cert-content">
+              <div class="cert-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline
+                    points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
+                  ></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cert-title">Python Programming</h3>
+                <p class="cert-issuer">Certification Body</p>
+                <p class="cert-view">Click to view certificate</p>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="cert-card animate-on-scroll delay-3"
+            data-cert="social"
+          >
+            <div class="cert-content">
+              <div class="cert-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline
+                    points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"
+                  ></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="cert-title">Social Media Marketing</h3>
+                <p class="cert-issuer">KASC Academy of Excellence</p>
+                <p class="cert-view">Click to view certificate</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificate Modal -->
+    <div
+      class="cert-modal"
+      id="certModal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="certModalTitle"
+    >
+      <div class="cert-modal-overlay"></div>
+      <div class="cert-modal-content">
+        <button
+          class="cert-modal-close"
+          id="certModalClose"
+          aria-label="Close certificate"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <img
+          id="certModalImage"
+          src=""
+          alt="Certificate"
+          class="cert-modal-image"
+        />
+      </div>
+    </div>
+
+    
+    <!-- ================= RESUME SECTION ================= -->
+<section id="resume" class="resume-section">
+
+    <div class="container">
+        <div class="resume-preview-wrapper">
+
+            <div class="resume-preview-card">
+
+                <!-- Lottie Animation -->
+                <div class="resume-animation">
+                    <lottie-player
+                        src="./assets/searching for profile.json"
+                        background="transparent"
+                        speed="1"
+                        style="width:260px;height:260px"
+                        loop autoplay>
+                    </lottie-player>
+                </div>
+
+                <h2 class="resume-title">My Professional Resume</h2>
+
+                <p class="resume-desc">
+                    View or download my latest resume including
+                    skills, certifications and projects.
+                </p>
+
+                <div class="resume-buttons">
+                    <button id="resumeBtn" class="btn-view">
+                        👁 View Resume
+                    </button>
+
+                    <a href="./assets/resume.pdf" download class="btn-download">
+                        ⬇ Download Resume
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- ================= RESUME MODAL ================= -->
+
+<div class="resume-modal" id="resumeModal">
+
+    <div class="resume-modal-content">
+
+        <button class="resume-modal-close" id="resumeModalClose">
+            ✕
+        </button>
+
+        <!-- Resume PDF Viewer -->
+        <iframe
+            src="./assets/resume.pdf"
+            class="resume-frame">
+        </iframe>
+
+    </div>
+
+</div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Have a question or want to work together? Feel free to reach out!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="contact-item animate-on-scroll delay-1">
+              <div class="contact-item-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  ></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div>
+                <p class="contact-label">Email</p>
+                <a
+                  href="mailto:rslogeshwaran127@gmail.com"
+                  class="contact-value"
+                  >rslogeshwaran127@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item animate-on-scroll delay-2">
+              <div class="contact-item-icon">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                  ></path>
+                </svg>
+              </div>
+              <div>
+                <p class="contact-label">Phone</p>
+                <a href="tel:+919514336059" class="contact-value"
+                  >+91 9514336059</a
+                >
+              </div>
+            </div>
+
+            <div class="social-links-box animate-on-scroll delay-3">
+              <h3 class="social-title">Connect With Me</h3>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/logesh-r-s-173a96289"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="LinkedIn"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="GitHub"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://www.instagram.com/rs_logesh__"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="social-link"
+                  aria-label="Instagram"
+                >
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect
+                      x="2"
+                      y="2"
+                      width="20"
+                      height="20"
+                      rx="5"
+                      ry="5"
+                    ></rect>
+                    <path
+                      d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                    ></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper animate-on-scroll delay-2">
+  <form id="contactForm" class="contact-form">
+
+    <div class="form-group">
+      <label for="name" class="form-label">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="user_name"
+        class="form-input"
+        placeholder="Your Name"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="form-label">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="user_email"
+        class="form-input"
+        placeholder="your.email@example.com"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="number" class="form-label">Phone Number</label>
+      <input
+        type="tel"
+        id="number"
+        name="number"
+        class="form-input"
+        placeholder="Your Phone Number"
+        required
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="message" class="form-label">Message</label>
+      <textarea
+        id="message"
+        name="message"
+        class="form-textarea"
+        placeholder="Your message..."
+        rows="5"
+        required
+      ></textarea>
+    </div>
+
+    <div class="form-status" id="formStatus"></div>
+
+    <button type="submit" class="btn btn-primary btn-submit">
+      <span>Send Message</span>
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+      </svg>
+    </button>
+
+  </form>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-line"></div>
+
+        <div class="footer-social">
+          <a
+            href="https://www.linkedin.com/in/logesh-r-s-173a96289"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-social-link"
+            aria-label="LinkedIn"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+              ></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-social-link"
+            aria-label="GitHub"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              ></path>
+            </svg>
+          </a>
+          <a
+            href="https://www.instagram.com/rs_logesh__"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footer-social-link"
+            aria-label="Instagram"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+        </div>
+
+        <div class="footer-made">
+          <span>Built with</span>
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="#14B8A6"
+            stroke="#14B8A6"
+            stroke-width="2"
+          >
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+            ></path>
+          </svg>
+          <span>and</span>
+          <svg
+            width="16"
+            height="16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+
+        <p class="footer-copyright">
+          © 2026 Logeshwaran R S. All rights reserved.
+        </p>
+
+        <div class="footer-tech">
+          <span class="tech-badge">HTML5</span>
+          <span class="tech-badge">CSS3</span>
+          <span class="tech-badge">JavaScript</span>
+          <span class="tech-badge">Vanilla JS</span>
+        </div>
+
+        <button
+          class="scroll-to-top"
+          id="scrollToTop"
+          aria-label="Scroll to top"
+        >
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+          </svg>
+        </button>
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init("bJ2EYabFe9S73A1PK"); // 🔁 replace
+  })();
+</script>
+  </body>
+</html>
