@@ -215,8 +215,8 @@ contactForm.addEventListener("submit", function (e) {
 
   emailjs
     .sendForm(
-      "service_449no5z",   // 🔁 replace
-      "template_s3x0p6u",  // 🔁 replace
+      "service_jozgg9b",   // 🔁 replace
+      "template_ayfcj37",  // 🔁 replace
       contactForm
     )
     .then(
